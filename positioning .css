@@ -1,0 +1,23 @@
+.parent {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.note {
+    padding: 10px;
+    width: 600px;
+}
+
+.task1 {
+    background-color: orange;
+    position: sticky;
+    top: 50px;
+}
+
+.task2 {
+    background-color: greenyellow;
+}
+
+.task3 {
+    background-color: royalblue;
+}
