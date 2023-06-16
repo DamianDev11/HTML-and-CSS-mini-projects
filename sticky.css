@@ -29,12 +29,14 @@
     background-color: orange;
     top: 100px;
     left: 50px;
+    transition: width 1s ease,height 3s ease;
   }
   
   .task2 {
     background-color: greenyellow;
     top: 220px;
     left: 150px;
+    transition: width 1s ease,height 3s ease;
   }
   
   .task3 {
@@ -42,5 +44,18 @@
     color: white;
     top: 360px;
     left: 80px;
+    transition: width 1s ease,height 3s ease;
   }
   
+  .task1:hover{
+    width: 600px;
+    height: 600px;
+  }
+  .task2:hover{
+    width: 600px;
+    height: 600px;
+  }
+  .task3:hover{
+    width: 600px;
+    height: 600px;
+  }
